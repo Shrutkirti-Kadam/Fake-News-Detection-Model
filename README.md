@@ -23,4 +23,4 @@ python -m spacy download en_core_web_sm
 ### Files In Repo and What They Keep
 1. Code - Consists of Code for model building. Can also use your database for creating your model.
 2. Download your model - Consists of code to download your model and tokenizer.
-3. Load Model and Tokenizer - Code for quick running of the model( load your model and tokenizer and run in a separate file )
+3. Load Model and Tokenizer - Code for quick running of the model ( load your model and tokenizer and run in a separate file )
