@@ -20,6 +20,12 @@ pip install tensorflow
 pip install transformers
 python -m spacy download en_core_web_sm
 ```
+```
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
+nlp = spacy.load('en_core_web_sm')
+```
 ### Files In Repo and What They Keep
 1. Code - Consists of Code for model building. Can also use your database for creating your model.
 2. Download your model - Consists of code to download your model and tokenizer.
