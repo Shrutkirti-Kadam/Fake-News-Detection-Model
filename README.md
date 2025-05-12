@@ -1,4 +1,4 @@
-# Fake News Detection Model
+# Fake News Detection Model (Worked With Ashay Gupta , [Rehan George Varghese](https://github.com/Rehangv) , [Vaibhav Hingnekar](https://github.com/vaibhavh27))
 Made 2 Models for the detection of Fake News.  
 The model uses CNN + biLSTM for news detection.  
 Uses distilBERT for Sentiment Analysis.
