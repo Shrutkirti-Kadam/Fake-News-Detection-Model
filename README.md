@@ -99,25 +99,25 @@ This project offers two pre-trained fake news detection models, each potentially
 Your project directory will be organized as follows. The sentiment_model_cache directory and its contents will be created automatically when you run download_hf_models.py.
 
 text
-your-project-root/
-├── train_model.py             # Script to train a new fake news model
-├── run_inference.py           # Script to run predictions using a pre-trained model
-├── download_hf_models.py      # Script to download the DistilBERT sentiment model
-├── README.md                  # This documentation file
-├── requirements.txt           # Python package dependencies
-└── assets/
-    ├── model_1/               # Contains assets for pre-trained Model 1 (example)
-    │   ├── fake_news_model.h5 # The trained Keras model
-    │   ├── tokenizer.pickle   # The Keras tokenizer object
-    │   ├── Fake.csv           # Example fake news dataset used for this model
-    │   └── True.csv           # Example true news dataset used for this model
-    ├── model_2/               # Contains assets for pre-trained Model 2 (example)
-    │   └── ...                # (model, tokenizer, and data CSVs for model 2)
-    └── sentiment_model_cache/ # **CREATED BY `download_hf_models.py`**
-        └── distilbert_sentiment/  # Cache for the downloaded DistilBERT model
-            ├── config.json
-            ├── pytorch_model.bin (or model.safetensors)
-            └── ... (other tokenizer/model files)
+your-project-root/  
+├── train_model.py             # Script to train a new fake news model  
+├── run_inference.py           # Script to run predictions using a pre-trained model   
+├── download_hf_models.py      # Script to download the DistilBERT sentiment model  
+├── README.md                  # This documentation file  
+├── requirements.txt           # Python package dependencies  
+└── assets/  
+    ├── model_1/               # Contains assets for pre-trained Model 1 (example)  
+    │   ├── fake_news_model.h5 # The trained Keras model  
+    │   ├── tokenizer.pickle   # The Keras tokenizer object  
+    │   ├── Fake.csv           # Example fake news dataset used for this model  
+    │   └── True.csv           # Example true news dataset used for this model  
+    ├── model_2/               # Contains assets for pre-trained Model 2 (example)  
+    │   └── ...                # (model, tokenizer, and data CSVs for model 2)  
+    └── sentiment_model_cache/ # **CREATED BY `download_hf_models.py`**  
+        └── distilbert_sentiment/  # Cache for the downloaded DistilBERT model  
+            ├── config.json  
+            ├── pytorch_model.bin (or model.safetensors)  
+            └── ... (other tokenizer/model files)  
 
 ## Setup and Installation
 
